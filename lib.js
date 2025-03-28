@@ -1,7 +1,4 @@
-(function() {
-    'use strict';
-
-    // Function to create and show notification with text
+// Function to create and show notification with text
     function showNotification(message) {
         // Create notification container
         const notification = document.createElement('div');
@@ -94,4 +91,3 @@
             setTimeout(() => notification.remove(), 500); // Remove after fade out
         }, 4000);
     }
-})();
